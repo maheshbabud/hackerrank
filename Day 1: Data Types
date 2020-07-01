@@ -1,0 +1,19 @@
+Public class Solution {
+
+  public static void main (String args []){
+    int i = 4;
+    double d = 4.0;
+    String s = "HackerRank ";
+
+    Scanner scan = new Scanner ();
+
+    int n = scan.nextInt();
+    double dl = scan.nextDouble();
+    scan.nextLine();
+    String str = scan.nextLine();
+
+    System.out.println(i+n);
+    System.out.println(d+dl);
+    System.out.println(s.concat(str));
+  }
+}
